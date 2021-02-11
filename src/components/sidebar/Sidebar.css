@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+.sidebar {
+    left: 0;
+    top: 0;
+    padding-top: 28px;
+    padding-left: 24px;
+    max-width: 320px;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 28px;
+    position: fixed;
+}
+
+.sidebar-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    width: 200px;
+    height: 45px;
+}
+
+.menu-heading {
+    margin-top: 39px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.menu-button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.heading-line {
+    display: block;
+    width: 28px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 6px;
+}
+
+.menu-span {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.menu-list ul {
+    list-style: none;
+}
+
+.menu-list-item {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-active {
+    color: #028DE9;
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.menu-icon-active {
+    color: #028DE9;
+}
+
+.footer-line {
+    margin-top: 35px;
+    display: block;
+    width: 295px;
+    height: 1px;
+    background-color: #D7DADD;
+}
+
+.menu-footer {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.menu-footer-text {
+    font-size: 12px;
+}
+
+.social-icon {
+    color: #474849;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}

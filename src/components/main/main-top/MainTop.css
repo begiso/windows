@@ -1,0 +1,42 @@
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.main-top-one {
+    position: relative;
+}
+
+.eset-antivirus {
+    height: 320px;
+}
+
+.main-top-one a a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    bottom: 12.5%;
+    left: 5%;
+}
+
+.main-top-two {
+    width: 464px;
+    height: 320px;
+}
+
+.carousel-indicators li{
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    border-color: 12px;
+}
+
+.pubg-game {
+    height: 320px;
+}
+
+.carousel-indicators .active {
+    background-color: #2500E5;
+}

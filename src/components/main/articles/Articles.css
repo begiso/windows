@@ -1,0 +1,54 @@
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles-card-link:hover {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.articles-card {
+    margin-top: 10px;
+    width: 360px;
+    height: 185px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.articles-card-layout {
+    border-radius: 15px;
+    width: 360px;
+    height: 185px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(44, 160, 238, 0.3);
+    transition: 0.5s ease;
+}
+
+.articles-card img {
+    border-radius: 15px;
+    width: 360px;
+    height: 185px;
+}
+
+.articles-card-date {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    color: white;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.articles-card-title {
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+}
